@@ -1,0 +1,6 @@
+version: 1
+services:
+  - name: abdi-crud
+    type: api
+    buildCommand: npm run build
+    startCommand: npm run start:prod
