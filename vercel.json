@@ -2,8 +2,8 @@
   "version": 2,
   "routes": [
     {
-      "src": "/users",
-      "dest": "/users"
+      "src": "/users/1",
+      "dest": "/users/1"
     }
   ]
 }
