@@ -1,6 +1,3 @@
 {
-  "version": 2,
-  "build": {
-    "src": "dist"
-  }
+  "version": 2
 }
