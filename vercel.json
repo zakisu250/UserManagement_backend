@@ -2,13 +2,11 @@
   "version": 2,
   "build": {
     "src": "public"
-  }
-}
-{
- "routes": [
+  },
+  "routes": [
     {
       "src": "/api/users",
       "dest": "/api/users"
     }
- ]
+  ]
 }
