@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "build": {
+    "src": "public"
+  }
+}
+{
+ "routes": [
+    {
+      "src": "/api/users",
+      "dest": "/api/users"
+    }
+ ]
+}
