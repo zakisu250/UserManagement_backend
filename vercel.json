@@ -1,18 +1,12 @@
 {
   "version": 2,
   "build": {
-    "src": "public"
+    "command": "npm run build"
   },
   "routes": [
     {
       "src": "/api/users",
       "dest": "/api/users"
     }
-  ],
-  "functions": {
-    "api/users.js": {
-      "runtime": "nodejs14.x",
-      "maxDuration": 10
-    }
-  }
+  ]
 }
