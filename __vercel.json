@@ -1,8 +1,0 @@
-{
-  "routes": [
-    {
-      "src": "users/1",
-      "dest": "users/1"
-    }
-  ]
-}
