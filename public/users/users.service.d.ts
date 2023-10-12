@@ -1,9 +1,8 @@
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { PrismaService } from '../prisma/prisma.service';
 export declare class UsersService {
     private prisma;
-    constructor(prisma: PrismaService);
+    constructor();
     create(createUserDto: CreateUserDto): import(".prisma/client").Prisma.Prisma__UserClient<{
         id: number;
         email: string;
