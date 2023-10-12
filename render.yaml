@@ -2,5 +2,9 @@ version: 1
 services:
   - name: abdi-crud
     type: api
-    buildCommand: npm run build
+    buildCommand: |
+      nvm install 16.13.0
+      nvm use 16.13.0
+      npm install
+      npm run build
     startCommand: npm run start:prod
